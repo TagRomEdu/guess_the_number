@@ -3,6 +3,8 @@ from utils import is_valid
 
 
 print("Добро пожаловать в числовую угадайку!")
+
+
 def main():
     counter = 1
     n = input("Введите правую границу диапазона для угадывания:\n")
