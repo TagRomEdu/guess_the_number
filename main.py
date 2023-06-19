@@ -18,7 +18,7 @@ def main():
     \nВведите целое число от 1 до {n}:\n")
 
     while True:
-        if not is_valid(user_number):
+        if not is_valid(user_number, n):
             user_number = input(f"А может быть все-таки введем целое число от 1 до {n}?\n")
         else:
             if int(user_number) == number:
