@@ -35,11 +35,11 @@ def main():
 if __name__ == "__main__":
     main()
 
-while True:
-    answer = input("Желаете ещё угадать?\n")
+    while True:
+        answer = input("Желаете ещё угадать?\n")
 
-    if answer.lower() == 'да':
-        main()
-    else:
-        print("Ну и ладно!")
-        break
+        if answer.lower() == 'да':
+            main()
+        else:
+            print("Ну и ладно!")
+            break
